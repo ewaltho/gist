@@ -27,7 +27,7 @@ Some characters do not call a character to be searched, instead they do what we 
 
 - ^: Beginning of a string or line. In all engines except Ruby, the ^ can be used to assert the beginning of a string is the current position when [multiline](#flags) is not specified. So for example if we wanted to search an entire string for all the "a"s in it, we would use ^ to do so.
 
-- $: End of a string or line. This is used in different ways depending on context. On all engines, $ will indicate the end of a string. For example, if your string is "the apple" and we use "e$", it will indicate the e at the end of "apple", but not at the end of "the".
+- \$: End of a string or line. This is used in different ways depending on context. On all engines, "\$" will indicate the end of a string. For example, if your string is "the apple" and we use "e$", it will indicate the e at the end of "apple", but not at the end of "the".
 
 
 ### Quantifiers
