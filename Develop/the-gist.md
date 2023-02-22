@@ -98,6 +98,10 @@ Greedy quantifiers will match more than you expect. Example:
 
 <mark>{START}Hello World{END}</mark>
 
+This syntax will select anything inside of {START} and {END} INCLUDING start and end.
+
+A greedy quantifier will become lazy when a "?" is added. This will guarantee that the quantified dot will only match as many characters as needed for the rest of the pattern to succeed. In the example above, it will only match one {START}…{END} item at a time.
+
 ### Boundaries
 
 
