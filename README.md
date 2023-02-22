@@ -6,11 +6,11 @@ In this tutorial, I will show you how to sort an array of words in alphabetical 
 ## Installation
 N/A
 
-Usage
-This site is interactive! Links at the top will snap to the designated sections. For example, the contact link will move you directly down to my contact links.
+## Usage
+Open in VSCode for highlighting
 
-License
-No license.
+## License
+N/A
 
-Features
-Shrink the page and see what happens to the navigation bar.
+## Credit
+Me :)
