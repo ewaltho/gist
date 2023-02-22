@@ -104,11 +104,19 @@ A greedy quantifier will become lazy when a "?" is added. This will guarantee th
 
 ### Boundaries
 
+Boundaries will mark the current position in the string. /b is a boundary and is used like so:
 
+    \bcat\b
+
+black <mark>cat</mark>, tabby <mark>cat</mark>.
 
 ### Back-references
 
+Back-references can be used to match a previously matched capture group. For example:
 
+    /(['"])(.*?)\1/g
+
+'He said: <mark>"She's the one!"</mark>.'
 
 ### Look-ahead and Look-behind
 
