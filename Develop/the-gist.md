@@ -92,7 +92,11 @@ In this example, we are searching for either spelling of the word gray. Since we
 
 ### Greedy and Lazy Match
 
+Greedy quantifiers will match more than you expect. Example:
 
+    {START}.*{END}
+
+<mark>{START}Hello World{END}</mark>
 
 ### Boundaries
 
