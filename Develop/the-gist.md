@@ -120,7 +120,7 @@ Back-references can be used to match a previously matched capture group. For exa
 
 ### Look-ahead and Look-behind
 
-
+Lookahead and lookbehind, collectively called "lookaround", are used similarly to how \$ and \b are used. However with lookaround, it will only return "matched" or "not matched", similar to a boolean in JavaScript. Lookaround does not consume characters, it will only assert that they are there or not.
 
 ## Author
 
