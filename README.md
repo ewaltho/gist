@@ -1,4 +1,4 @@
-# Regex Alphabetical Sorting Tutorial
+# Regex Docs
 
 ## Description
 In this tutorial, I will show you how to sort an array of words in alphabetical order.
